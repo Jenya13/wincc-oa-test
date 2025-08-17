@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel version="14">
+ <properties>
+  <prop name="Name">
+   <prop name="en_US.utf8"></prop>
+  </prop>
+  <prop name="Size">100 150</prop>
+  <prop name="BackColor">_3DFace</prop>
+  <prop name="RefPoint">4 3</prop>
+  <prop name="InitAndTermRef">True</prop>
+  <prop name="SendClick">False</prop>
+  <prop name="RefFileName"></prop>
+  <prop name="DPI">96</prop>
+  <prop name="PDPI">101.6</prop>
+  <prop name="layoutType">None</prop>
+ </properties>
+ <shapes>
+  <reference Name="PANEL_REF1" parentSerial="-1" referenceId="0">
+   <properties>
+    <prop name="FileName">objects_parts/pump_top_menu.xml</prop>
+    <prop name="Location">4 3</prop>
+    <prop name="TabOrder">0</prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+   </properties>
+  </reference>
+  <reference Name="PANEL_REF2" parentSerial="-1" referenceId="1">
+   <properties>
+    <prop name="FileName">objects_parts/pump_bottom_menu.xml</prop>
+    <prop name="Location">3 101</prop>
+    <prop name="Geometry">1 0 0 1 1 0</prop>
+    <prop name="TabOrder">1</prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+   </properties>
+  </reference>
+  <reference Name="PANEL_REF3" parentSerial="-1" referenceId="2">
+   <properties>
+    <prop name="FileName">objects_parts/pump_center.xml</prop>
+    <prop name="Location">54 70</prop>
+    <prop name="Geometry">1 0 0 1 -3 2</prop>
+    <prop name="TabOrder">2</prop>
+    <prop name="layoutAlignment">AlignNone</prop>
+   </properties>
+  </reference>
+ </shapes>
+</panel>
