@@ -12,8 +12,8 @@ password=""
 
 
 [ui]
-versionControl = "git"
-versionControlDiff = "C:/Program Files/WinMerge/WinMergeU.exe"
+#versionControl = "git"
+#versionControlDiff = "C:/Program Files/WinMerge/WinMergeU.exe"
 defaultFont = "Noto Sans"
 defaultPanelFormat = "XML"
 
